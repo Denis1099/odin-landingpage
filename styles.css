@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+
+}
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 600;
+}
+
+.header, .hero {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.container ul {
+    margin: 0;
+    list-style-type: none;
+}
+ul a {
+    text-decoration: none;
+    color: #e5e7eb;
+    
+}
+
+.content h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 0;
+}
+
+.content button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 7px 24px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.container img {
+    width: 500px;
+    height: 300px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 12px;
+}
+.cards {
+    color: #c2c3c5;
+    font-weight: 500;
+}
+
+.testimonial{
+    background-color: #e5e7eb;
+}
+
+.testimonial .quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.cta .container {
+    height: 150px;
+    width: 700px;
+    background-color: #3882f6;
+    border-radius: 12px;
+    color: #f9faf8;
+}
+
+.left .title {
+    font-weight: 800;
+}
+
+.container .signup {
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    padding: 0px  32px;
+    flex-shrink: 0;
+    height: 45px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+
+/* flexbox stuff */
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 12px;
+    padding-top: 8px;
+    
+}
+.container ul {
+    display: flex;
+    gap: 50px;
+}
+
+.hero .container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+
+}
+
+.container .content {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;  
+}
+.container .content button {
+    flex-grow: 0;
+    width: 150px;
+    
+}
+
+
+
+.main .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+    
+
+}
+.container .cards {
+    display: flex;
+    gap: 32px;
+    margin-top: 35px;
+}
+
+.card1, .card2, .card3, .card4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    gap: 15px;
+}
+
+/*.testimonial .quoted {
+    align-self: flex-end;
+} */
+
+.cta .container {
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.container .left {
+    margin: 0;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
